@@ -1,0 +1,22 @@
+database name="assign";
+
+table name= "details";
+
+CREATE DATABASE assign;
+
+USE assign;
+
+CREATE TABLE details
+(
+id int NOTNULL AUTO INCREMENT,
+name varchar(50),
+email varchar(50),
+fname varchar(50),
+dob varchar(50),
+village varchar(50),
+dnumber int(50),
+pincode varchar(50),
+subject varchar(50),
+PRIMARY KEY(id)
+);
+
